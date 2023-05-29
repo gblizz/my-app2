@@ -7,16 +7,22 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          
+          <div class="flex-container">
+            <form>
+
+                <label for="loginName">Login ID: </label>
+                <input type="text" id="loginName" name="loginName"></input>
+                <br></br>
+                <label for="loginPass}">Password: </label>
+                <input type="text" id="loginPass" name="loginPass"></input>
+
+            </form>
+          </div>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <form action="https://www.merakimedaesthetics.com">
+          <button type="submit">Log In</button>
+        </form>
       </header>
     </div>
   );
